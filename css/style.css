@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.container{
+    width: 55vw;
+    background-color: darkolivegreen;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+.from, .to, .btn{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.container label, .container select, .container input[type=submit]{
+    font-size: 34px;
+}
+
+.container label{
+    color: coral;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+    font-size: 44px;
+    font-weight: bolder;
+    border: 1px dashed red;
+}
