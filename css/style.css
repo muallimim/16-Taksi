@@ -31,3 +31,12 @@ body{
     font-weight: bolder;
     border: 1px dashed red;
 }
+
+#btnTaksiHesapla{
+   border: transparent;
+}
+
+#btnTaksiHesapla:hover{
+    color: blueviolet;
+    border: red;
+}
